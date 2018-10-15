@@ -1,0 +1,212 @@
+cd Desktop/
+sudo mv /etc/apt/
+sudo mv apt.conf /etc/apt/
+exit
+nasm -felf32 -g -Fdwarf Array_rev.asm 
+gcc -m32 -g -Fdwarf Array_rev.o
+sudo ifconfig -a
+sudo ifconfig wlo1 down
+sudo iwconfig wlo1 mode ad-hoc 
+sudo iwconfig wlo1 channel 1 essid VSDNET mode ad-hoc 
+sudo ifconfig wlo1 up
+sudo ifconfig wlo1 192.168.1.228 netmask 255.255.255.0
+ping 192.168.1.211
+sudo iwlist wlo1 scan | less
+ping 192.168.1.211
+exit
+sudo rfkill unblock wifi
+ssh smita@192.168.1.3
+sudo apt-get install openssh-server
+
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get update 
+reboot
+cd /etc/apt
+cat apt.conf
+gcc client.c -o client
+./client
+gcc server.c -o server
+./server
+gcc client.c -o client
+./client 
+gcc client.c -o client
+./client 
+gcc client.c -o client
+./client 
+gcc server.c -o server
+./server 
+gcc server.c -o server
+./server 
+gcc server.c -o server
+./server 
+gcc server.c -o server
+./server
+gcc client.c -o client
+./client 127.0.0.1/
+gcc client.c -o client
+./client 127.0.0.1/
+gcc server.c -o server
+./server 
+gcc client1.c -o client1
+./client1 127.0.0.1/
+gcc client1.c -o client1
+./client1 127.0.0.1/
+exit
+gcc server1.c -o server1
+./server1
+gcc server1.c -o server1
+./server1
+sudo apt-get update 
+sudo apt-get install acpi
+sudo apt-get install inxi 
+sudo apt-get install vlc
+sudo apt-get install vim
+sudo apt-get update 
+sudo apt-get install gcc
+sudo apt-get install gcc-multilib
+sudo apt-get update 
+sudo apt-get install gcc build-essential git emacs
+cd Downloads/
+sudo dpkg -i code_1.25.1-1531323788_amd64.deb 
+sudo apt-get update 
+sudo apt-get install -f
+sudo dpkg -i code_1.25.1-1531323788_amd64.deb 
+code
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+sudo apt-get update 
+sudo apt-get install -f
+exit
+gcc client.c -o client
+./client 127.0.0.1/
+y
+v
+fgreth
+wre
+tehtrj
+ewre
+htt
+rewr
+thtr
+erthy
+gcc client.c -o client
+./client 127.0.0.1/
+gcc client_2.c -o client2
+./client2 127.0.0.1/
+gcc client_2.c -o client2
+./client2 127.0.0.1/
+exit
+gcc server.c -o server
+./server 
+gcc server.c -o server
+./server 
+gcc server(1).c -o server1
+gcc server_2.c -o server2
+./server2 
+gcc server_2.c -o server2
+./server2 
+exit
+gcc client_2.c -o client2
+./client2 127.0.0.1/
+exit
+gcc server_2.c -o server2
+./server2 
+exit
+sudo apt-get install python-pip
+sudo -E pip install beautifulsoup4
+sudo mv /etc/apt/apt.conf /home/vsd/Desktop/
+sudo pip install beautifulsoup4
+sudo apt-get update 
+sudo apt-get install -f
+sudo pip install beautifulsoup4
+sudo apt-get install python3-bs4
+sudo mv /home/vsd/Desktop/apt.conf /etc/apt/
+sudo apt-get install docker
+sudo apt-get install docker.io 
+sudo -E docker pull brianlow/syntaxnet-docker
+sudo docker pull brianlow/syntaxnet-docker
+sudo apt-get update 
+gedit .bashrc 
+source ~./bashrc
+source ~/.bashrc
+sudo apt-get install npm
+source ~/.bashrc
+sudo docker pull brianlow/syntaxnet-docker
+sudo -E docker pull brianlow/syntaxnet-docker
+~/.config/
+cd ~/.config/
+cd
+mkdir .docker
+cd ~/.docker/
+gedit config,json
+gedit config.json
+cd
+cd /etc/default/
+ls
+sudo gedit docker 
+sudo vi docker 
+cd /lib/systemd/system
+sudo vim docker.service 
+cd
+sudo systemctl daemon-reload 
+sudo systemctl restart docker
+sudo nano /etc/NetworkManager/NetworkManager.conf 
+sudo systemctl restart network-manager
+sudo docker pull ubuntu:17.10
+sudo mv /etc/apt/apt.conf /home/vsd/Desktop/
+exit
+ls
+gedit temp.c
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+sudo docker pull brianlow/syntaxnet-docker
+exir
+exit
+ls
+exit
+gcc a.c
+./a.
+./a.out 
+cd
+gcc temp.c 
+./a.out 
+exit
+cd Desktop/
+sudo mv apt.conf /etc/apt
+pip
+sudo pip install -U nltk
+sudo -E pip install -U nltk
+sudo apt-get update 
+sudo -E pip install -U nltk
+python3.6
+python
+python3.5
+python3
+sudo apt-get install python3-nltk 
+python3
+exit
+python
+python3
+exit
+python3.6
+exit
+python -m pip install -U "pylint<2.0.0" --user
+sudo apt-get update 
+python -m pip install -U "pylint<2.0.0" --user
+/usr/bin/python3 -m pip install -U pylint --user
+exit
+code nltktoken.py
+sudo apt-get install python3-pip
+exit

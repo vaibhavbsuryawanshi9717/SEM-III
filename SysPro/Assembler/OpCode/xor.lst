@@ -1,0 +1,62 @@
+     1                                  	section .data
+     2 00000000 09                      	a db 9
+     3                                  	section .text
+     4                                  	global main
+     5                                  	
+     6                                  main:
+     7 00000000 31C8                    xor eax,ecx
+     8 00000002 31C9                    xor ecx,ecx
+     9 00000004 31CA                    xor edx,ecx
+    10 00000006 31CB                    xor ebx,ecx
+    11 00000008 31CC                    xor esp,ecx
+    12 0000000A 31CD                    xor ebp,ecx
+    13 0000000C 31CE                    xor esi,ecx
+    14 0000000E 31CF                    xor edi,ecx
+    15 00000010 31D8                    xor eax,ebx
+    16                                  
+    17 00000012 83F000                  xor eax,000
+    18 00000015 83F101                  xor ecx,001
+    19 00000018 83F20A                  xor edx,010
+    20 0000001B 83F30B                  xor ebx,011
+    21 0000001E 83F464                  xor esp,100
+    22 00000021 83F565                  xor ebp,101
+    23 00000024 83F66E                  xor esi,110
+    24 00000027 83F76F                  xor edi,111
+    25                                  
+    26 0000002A 83F068                  xor eax,104
+    27 0000002D 83F168                  xor ecx,104
+    28 00000030 83F268                  xor edx,104
+    29 00000033 83F368                  xor ebx,104
+    30 00000036 83F468                  xor esp,104
+    31 00000039 83F568                  xor ebp,104
+    32 0000003C 83F668                  xor esi,104
+    33 0000003F 83F768                  xor edi,104
+    34                                  	 
+    35 00000042 3305[00000000]          xor eax,dword[a]
+    36 00000048 330D[00000000]          xor ecx,dword[a]
+    37 0000004E 3315[00000000]          xor edx,dword[a]
+    38 00000054 331D[00000000]          xor ebx,dword[a]
+    39 0000005A 3325[00000000]          xor esp,dword[a]
+    40 00000060 332D[00000000]          xor ebp,dword[a]
+    41 00000066 3335[00000000]          xor esi,dword[a]
+    42 0000006C 333D[00000000]          xor edi,dword[a]
+    43                                  
+    44 00000072 3105[00000000]          xor dword[a],eax
+    45 00000078 310D[00000000]          xor dword[a],ecx
+    46 0000007E 3115[00000000]          xor dword[a],edx
+    47 00000084 311D[00000000]          xor dword[a],ebx
+    48 0000008A 3125[00000000]          xor dword[a],esp
+    49 00000090 312D[00000000]          xor dword[a],ebp
+    50 00000096 3135[00000000]          xor dword[a],esi
+    51 0000009C 313D[00000000]          xor dword[a],edi
+    52                                  
+    53 000000A2 330458                  xor eax,dword[eax+ebx*2]
+    54 000000A5 330C59                  xor ecx,dword[ecx+ebx*2]
+    55 000000A8 33145A                  xor edx,dword[edx+ebx*2]
+    56 000000AB 331C5B                  xor ebx,dword[ebx+ebx*2]
+    57 000000AE 33245C                  xor esp,dword[esp+ebx*2]
+    58 000000B1 336C5D00                xor ebp,dword[ebp+ebx*2]
+    59 000000B5 33345E                  xor esi,dword[esi+ebx*2]
+    60 000000B8 333C5F                  xor edi,dword[edi+ebx*2]
+    61                                  
+    62 000000BB 8335[00000000]0A        xor dword[a],10

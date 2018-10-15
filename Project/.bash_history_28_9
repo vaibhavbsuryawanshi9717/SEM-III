@@ -1,0 +1,1527 @@
+cd Desktop/
+sudo mv /etc/apt/
+sudo mv apt.conf /etc/apt/
+exit
+nasm -felf32 -g -Fdwarf Array_rev.asm 
+gcc -m32 -g -Fdwarf Array_rev.o
+sudo ifconfig -a
+sudo ifconfig wlo1 down
+sudo iwconfig wlo1 mode ad-hoc 
+sudo iwconfig wlo1 channel 1 essid VSDNET mode ad-hoc 
+sudo ifconfig wlo1 up
+sudo ifconfig wlo1 192.168.1.228 netmask 255.255.255.0
+ping 192.168.1.211
+sudo iwlist wlo1 scan | less
+ping 192.168.1.211
+exit
+sudo rfkill unblock wifi
+ssh smita@192.168.1.3
+sudo apt-get install openssh-server
+
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get update 
+reboot
+cd /etc/apt
+sudo apt-get update 
+sudo apt-get install acpi
+sudo apt-get install inxi 
+sudo apt-get install vlc
+sudo apt-get install vim
+sudo apt-get update 
+sudo apt-get install gcc
+sudo apt-get install gcc-multilib
+sudo apt-get update 
+sudo apt-get install gcc build-essential git emacs
+cd Downloads/
+sudo dpkg -i code_1.25.1-1531323788_amd64.deb 
+sudo apt-get update 
+sudo apt-get install -f
+sudo dpkg -i code_1.25.1-1531323788_amd64.deb 
+code
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+sudo apt-get update 
+sudo apt-get install -f
+exit
+gcc client.c -o client
+./client 127.0.0.1/
+y
+v
+fgreth
+wre
+tehtrj
+ewre
+htt
+rewr
+thtr
+erthy
+gcc client.c -o client
+./client 127.0.0.1/
+gcc client_2.c -o client2
+./client2 127.0.0.1/
+gcc client_2.c -o client2
+./client2 127.0.0.1/
+exit
+gcc server.c -o server
+./server 
+gcc server.c -o server
+./server 
+gcc server(1).c -o server1
+gcc server_2.c -o server2
+./server2 
+gcc server_2.c -o server2
+./server2 
+exit
+gcc client_2.c -o client2
+./client2 127.0.0.1/
+exit
+gcc server_2.c -o server2
+./server2 
+exit
+sudo apt-get install python-pip
+sudo -E pip install beautifulsoup4
+sudo mv /etc/apt/apt.conf /home/vsd/Desktop/
+sudo pip install beautifulsoup4
+sudo apt-get update 
+sudo apt-get install -f
+sudo pip install beautifulsoup4
+sudo apt-get install python3-bs4
+sudo mv /home/vsd/Desktop/apt.conf /etc/apt/
+sudo apt-get install docker
+sudo apt-get install docker.io 
+sudo -E docker pull brianlow/syntaxnet-docker
+sudo docker pull brianlow/syntaxnet-docker
+sudo apt-get update 
+gedit .bashrc 
+source ~./bashrc
+source ~/.bashrc
+sudo apt-get install npm
+source ~/.bashrc
+sudo docker pull brianlow/syntaxnet-docker
+sudo -E docker pull brianlow/syntaxnet-docker
+~/.config/
+cd ~/.config/
+cd
+mkdir .docker
+cd ~/.docker/
+gedit config,json
+gedit config.json
+cd
+cd /etc/default/
+ls
+sudo gedit docker 
+sudo vi docker 
+cd /lib/systemd/system
+sudo vim docker.service 
+cd
+sudo systemctl daemon-reload 
+sudo systemctl restart docker
+sudo nano /etc/NetworkManager/NetworkManager.conf 
+sudo systemctl restart network-manager
+sudo docker pull ubuntu:17.10
+sudo mv /etc/apt/apt.conf /home/vsd/Desktop/
+exit
+ls
+gedit temp.c
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+sudo docker pull brianlow/syntaxnet-docker
+exir
+exit
+ls
+exit
+gcc a.c
+./a.
+./a.out 
+cd
+gcc temp.c 
+./a.out 
+exit
+cd Desktop/
+sudo mv apt.conf /etc/apt
+pip
+sudo pip install -U nltk
+sudo -E pip install -U nltk
+sudo apt-get update 
+sudo -E pip install -U nltk
+python3.6
+python
+python3.5
+python3
+sudo apt-get install python3-nltk 
+python3
+exit
+python
+python3
+exit
+python3.6
+exit
+python -m pip install -U "pylint<2.0.0" --user
+sudo apt-get update 
+python -m pip install -U "pylint<2.0.0" --user
+/usr/bin/python3 -m pip install -U pylint --user
+exit
+code nltktoken.py
+sudo apt-get install python3-pip
+exit
+python3.6 nltktoken.py 
+python3.6
+python3.6 nltktoken.py 
+exit
+exit
+exit
+python3.6 nltktoken.py 
+exit
+python3.6 nltktoken.py 
+time
+python3.6 nltktoken.py 
+exit
+gcc server1.c -o server
+./server
+gcc server1.c -o server
+./server
+gcc server1.c -o server
+./server
+gcc client1.c
+gcc client1.c -o client
+./client 127.0.0.1/
+gcc client1.c -o client
+./client 127.0.0.1/
+gcc client1.c -o client
+./client 127.0.0.1/
+python3.6 nltktoken.py 
+exit
+cd Desktop/
+gcc \!\ a\ a\ \$\ _.c 
+./a.
+./a.out 
+nasm -felf32 -g -Fdwarf Array_rev.asm 
+sudo apt-get install nasm
+nasm -felf32 -g -Fdwarf Array_rev.asm 
+nasm -l add.lst -felf32 add.asm 
+cat add.lst
+nasm -l add.lst -felf32 add.asm 
+cat add.lst
+exit
+cd Downloads/cat reg.lst
+cd Downloads
+cat reg.sl
+cat reg.lst
+exit
+code string_to_Ascii.py
+python3.6 string_to_Ascii.py 
+sudo apt-get install indent
+python3.6 string_to_Ascii.py 
+python3.6
+python3.6 string_to_Ascii.py 
+python3.6
+exit
+python3.6 string_to_Ascii.py 
+exit
+git remote add origin https://github.com/vbsuryawanshi/SysPro.git
+git push -u origin master 
+git add .
+git commit -m "4_09_2018"
+git config --global user.email "vaibhavbsuryawanshi@gmail.com"
+git config --global user.name "vbsuryawanshi"
+git commit -m "4_09_2018"
+git push origin master 
+git config --list
+git status
+git log
+git fetch origin 
+git branch -r
+exit
+code dictbrgin.py
+code dictbegin.py
+python3.6 dictbegin.py 
+python3.6
+python3.6 dictbegin.py 
+python3.6 17219.py 
+
+python3.6 17219.py 
+===
+python3.6 17219.py 
+wifi
+nasm -l mov.lst -felf32 mov.asm 
+nasm -l add.lst -felf32 add.asm 
+make
+test
+./test
+sudo ./test
+make -f test
+./test
+./make
+test
+make test
+make -f test
+make
+exit
+gcc temps.c -o temps
+./temps
+gcc temps.c -o temps
+./temps
+gcc temps.c -o temps
+./temps
+gcc temps.c -o temps
+./temps
+gcc temps.c -o temps
+./temps
+ifconfig
+code tempc.c
+gcc tempc.c
+./a.out 
+gcc tempc.c
+./a.out 
+code temps.c
+gcc tempc.c -o tempc
+./tempc
+gcc tempc.c -o tempc
+./tempc
+gcc tempc.c -o tempc
+./tempc
+gcc tempc.c -o tempc
+./tempc
+gcc tempc.c -o tempc
+./tempc
+code dictbegin.py 
+code systest22_8.py 
+exit
+python3.6 systest22_8.py 
+code regTable.py
+python3.6 systest22_8.py 
+exit
+code minspanningT.py
+python3.6 minspanningT.py
+nasm -l add.lst -felf32 add.asm 
+nasm -l mov.lst -felf32 mov.asm 
+exit
+nasm -l mov.lst -felf32 mov.asm 
+nasm -l sub.lst -felf32 sub.asm 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -l test.lst -felf32 test.asm 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -l test.lst -felf32 test.asm 
+code Assembler.py 
+code regTable.py
+code errTable.py
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -l test.lst -felf32 test.asm 
+nasm -felf32 -g -Fdwarf test.asm 
+gcc -m32 -g -Fdwarf test.o
+./a.out 
+nasm -felf32 -g -Fdwarf test.asm 
+exit
+nano ./bashrc
+vim .bashrc
+gedit .bashrc
+exit
+./bashrc
+.bashrc
+ls
+/.bashrc
+./.bashrc
+sudo ./.bashrc
+ls -a
+chmod 777 .bashrc 
+sudo ./.bashrc
+cd /etc/network/
+sudo vim interfaces
+exit
+cd
+update .bashrc
+./.bashrc
+exit
+ls
+./script 
+ifconfig 
+ping 192.168.1.219
+sudo service network-manager stop
+./script 
+ifconfig 
+ping 192.168.1.219
+ifconfig 
+docker
+sudo iwlist wlo1 scan | less
+ssh ash@192.168.1.219
+ping 192.168.1.219
+sudo rfkill unblock wifi
+ping 192.168.1.219
+ssh ash@192.168.1.219
+ls
+exit
+script
+exit
+cd
+cd /etc/network/
+sudo vim interfaces
+cd
+exit
+sudo rfkill unblock wifi
+sudo service network-manager stop
+./script 
+ifconfig 
+ping 192.168.1.219
+ssh ash@192.168.1.219
+sudo apt-get install openssh-server 
+sudo rfkill unblock wifi
+sudo service network-manager restart 
+sudo apt-get install openssh-server 
+exit
+sudo rfkill unblock wifi
+sudo service network-manager stop
+./script 
+ping 192.168.1.219
+ssh ash@192.168.1.219
+sudo rfkill unblock wifi
+ssh ash@192.168.1.219
+exit
+ping 192.168.1.219
+ssh ash@192.168.1.219
+ping 192.168.1.219
+sudo service network-manager start
+exit
+cd 
+cd Downloads/
+gcc client.c 
+gcc client.c -o client.c 
+gcc client.c -o client.
+gcc client.c -o client
+./client
+ls
+rm client.
+ls
+./client
+./client 192.168.1.219
+ping 192.168.1.219
+gedit client.c
+ls
+rm client
+gcc server.c -o server
+./server 
+./server 192.168.1.228
+./server
+gcc server.c -o server
+./server
+gcc server.c -o server
+./server
+rm server
+gcc server.c -o server
+./server
+exi
+exit
+gcc client.c -o client
+./client 
+./client localhost
+./client 192.168.1.219
+rm client 
+gcc client.c -o client
+./client
+exit
+sudo service network-manager stop
+cd Msc/
+cd SEM-III
+cd CN/
+cd Ad-Hoc/
+./script 
+ifconfig 
+ping 192.168.1.219
+exit
+sudo rfkill unblock wifi
+./script 
+ping 192.168.1.219
+ping 192.168.1.1
+ping 192.168.1.2
+exir
+exit
+gcc client.c -o client
+ifconfig 
+ping 192.168.1.219
+gcc client.c -o client
+./client 
+./client 192.168.1.219
+gcc client.c -o client
+./client 192.168.1.219
+ping 192.168.1.219
+ifconfig 
+ping 192.168.1.219
+gcc server.c -o server1
+./server1
+gcc server.c -o server
+./server 
+ping 192.168.1.2
+gcc server.c -o server
+./server 
+wifi
+sudo service network-manager stop
+./server 
+gcc server.c -o server
+./server 
+exit
+./script 
+exit
+gcc server.c -o server
+./server 
+gcc server.c -o server
+./server 
+gcc server.c -o server
+./server 
+man bind
+wifi
+exit
+sudo dpkg -i code_1.27.1-1536226049_amd64.deb 
+version --code
+code
+code --version
+exit
+cd Desktop/
+gcc temp.c 
+./a.
+./a.out 
+gcc temp.c 
+./a.
+./a.out 
+./a.
+gcc temp.c 
+
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+wifi
+exit
+less data 
+nasm -felf32 -g -Fdwarf test.asm
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+gdb a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+gdb a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+gdb a.out 
+nasm -felf32 -l l.lst temp.asm
+nasm -felf32 -g -Fdwarf temp.asm
+nasm -felf32 -l l.lst temp.asm
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+./a.out 
+gdb a.out 
+nasm -felf32 -g -Fdwarf temp.asm
+gcc -m32 -g -Fdwarf temp.o
+gdb a.out 
+./a.out 
+cf
+cd
+lsblk
+sudo mkfs.vfat -I /dev/sdb1
+lsblk
+sudo umount /dev/sdb1
+lsbl
+lsblk
+sudo umount /dev/sdb1
+sudo mkfs.vfat -I /dev/sdb
+lsblk
+exit
+man3 printf
+man 3 printf
+exit
+cd Desktop/
+gedit temp.asm
+gedit temp1.c &
+gcc temp1.c -S
+./a.out 
+gcc temp1.c -S
+gedit temp.asm &
+exit
+ls
+Hiiii
+ls
+cd Msc/
+ls
+exit4
+exit
+sudo service network-manager stop
+cd Msc/
+cd SEM-III/CN/Ad-Hoc/
+./script 
+ifconfig
+ping 192.168.1.1
+ssh mayur@192.168.1.2
+wifi
+sudo apt-get install openssh-server 
+sudo service network-manager stop
+./script 
+ifconfig
+./script 
+ifconfig
+ssh mayur@192.168.1.2
+wifi
+ssh mayur@192.168.1.2
+./script 
+sudo service network-manager stop
+exit
+./script 
+sudo rfkill unblock wif
+./script 
+ssh mayur@192.168.1.2
+./script 
+ssh mayur@192.168.1.1
+ping 192.168.1.1
+./script 
+ifconfig 
+ping 192.168.1.1
+ssh mayur@192.168.1.1
+./script 
+ifconfig 
+wifi
+exit
+ls
+code temp.c
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+gcc temp.c 
+./a.out 
+ping google.com
+ping www.google.com
+ls
+gcc server.c
+./a.out 
+ifcongif
+ifconfig
+wifi
+ifconfig 
+wifi
+ifconfig 
+/etc/network/
+cd /etc/network/
+cat interfaces
+exit
+sudo service network-manager stop
+cd ..
+cd Ad-Hoc/
+./script 
+ifconfig
+sudo rfkill unblock wifi
+./script 
+ifconfig
+ping 192.168.1.228
+ping 192.168.1.219
+exit
+ifconfig 
+cd Desktop/
+gedit temptxt.c
+cd
+gedit Test_14_9_Q.3.c
+exit
+slblk
+lsblk
+exit
+cd /etc/default/
+sudo vim grub 
+restart
+reboot
+ls
+gcc server.c 
+./a.out 8080
+gcc server.c 
+./a.out 8080
+exit
+gcc client.c 
+./a.out localhost 8080 script 
+ifconfig 
+./a.out 10.30.75.67 8080 script 
+exit
+code Assembler.py 
+python3.6 Assembler.py 
+ython3.6 Assembler.py 
+python3.6 Assembler.py 
+[A
+python3.6 Assembler.py 
+xit
+exit
+gcc reciver.c 
+ls
+gcc reciver.c 
+./a.out
+sudo ./a.out
+cd
+cd Desktop/
+gcc reciver.c 
+./a.out 
+gcc reciver.c 
+./a.out 
+gcc reciver.c -o reciver
+./reciver 
+gcc reciver.c -o reciver
+./reciver 
+exit
+cd Desktop/
+gcc sender.c -o sender
+./sender 
+wiif
+wifi
+sudo apt-get install arp-scan 
+./sender 
+gcc sender.c -o sender
+./sender 
+sudo apt-get install arp-scan 
+exi
+exit
+sudo service network-manager stop
+./script 
+ifconfig 
+./script 
+ifconfig 
+wifi
+sudo service network-manager stop
+./script 
+ifconfig 
+ping 192.168.1.219
+wifi
+./script 
+wifi
+./script 
+ifconfig 
+./script 
+ping 192.168.1.219
+ifconfig 
+exi
+wifi
+sudo apt-get update 
+sudo apt-get install -f
+exit
+cd
+cd /etc/network/
+sudo vim interfaces
+nmap -A -T4 scanme.nmap.org
+sudo nmap --interface=$(ifconfig | grep -o 'w.........') --localnet |  q
+sudo nmap --interface=$(ifconfig | grep -o 'w.........')
+sudo nmap --interface=$(ifconfig)
+ifocn
+ifconfig 
+sudo nmap --interface=$(ifconfig | grep -o 'w.........')
+nmap -h
+nmap
+nmap localhot
+sudo vim interfaces
+exit
+gcc sender.c -o send
+./send 
+ifconfig 
+sudo /etc/init.d/network-manager start
+sudo iwconfig 
+sudo /etc/init.d/net.wlo1 start
+ifconfig -a
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........') --localnet | 
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........') --localnet
+#ip link set wlo1 up
+ip link show
+journalctl -xe | grep tail
+sudo apt-get install nmap
+man nmap
+exit
+ifconfig | grep -o 'wl.....'
+ifconfig | grep -o 'wl....'
+ifconfig | grep -o 'wl..'
+count -l | ifconfig | grep -o 'wl..'
+
+ifconfig | grep -o 'wl..'
+exit
+gcc reciver.c -o rec
+./rec 
+wifi
+ls
+cd
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........') --localnet | 
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........')
+nmap localhost
+sudo namp --interface=$(ifconfig | grep -o 'w.........')
+sudo nmap --interface=$(ifconfig | grep -o 'w.........')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........')
+ifconfig 
+sudo arp-scan --interface=$(ifconfig | grep -o 'w........')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.......')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w....')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w...')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w....')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w...')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w......')
+sudo arp-scan --interface=$(ifconfig | grep -o wl02
+sudo arp-scan --interface=$(ifconfig | grep -o 'w......')
+sudo arp-scan --interface=$(ifconfig | grep -o 'wlo1')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........'
+
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........') --localnet | grep -E -o "[0-9]+(.)[0-9]+(.)[0-9]+(.)[0-9]"
+cd /dev/
+ls
+ls | grep 'w...'
+cd net/
+ls
+cd
+sudo ip link set wlo1 up
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........') 
+sudo arp-scan --interface=$(ifconfig | grep -o 'w...') 
+exit
+./send 
+gcc sender.c -o send
+./send 
+sudo apt-get install netdiscover 
+netdiscover 
+sudo netdiscover 
+sudo netdiscover .ips 
+sudo netdiscover|  ifconfig 
+sudo netdiscover|  ifconfig | grep 'w......'
+sudo netdiscover|  ifconfig | grep 'w.....'
+sudo arp --interface=$(ifconfig | grep -o 'w.........') 
+sudo arp-a --interface=$(ifconfig | grep -o 'w.........') 
+sudo arp -a --interface=$(ifconfig | grep -o 'w.........') 
+sudo arp a --interface=$(ifconfig | grep -o 'w.........') 
+sudo arp -a --interface=$(ifconfig | grep -o 'w.........') 
+sudo arp-scan -a --interface=$(ifconfig | grep -o 'w.........') 
+sudo arp-scan  --interface=$(ifconfig | grep -o 'w.........') 
+sudo arp-scan -a --interface=$(ifconfig | grep -o 'w.........') 
+arp -a
+ip
+ip n
+sudo arp-scan 192.168.43.1
+sudo arp-scan 192.168.*.*
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w........')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.......')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w...')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w....')
+ifconfig 
+sudo ifconfig wlan0 up
+sudo ifconfig wlo1 up
+sudo arp-scan --interface=$(ifconfig | grep -o 'w....')
+ip link set wlan0 up
+ip link set wlo1 up
+sudo ip link set wlo1 up
+sudo arp-scan --interface=$(ifconfig | grep -o 'w....')
+iw wlan0 scan
+iw wlO1 scan
+sudo arp-scan --interface=$(iWconfig | grep -o 'w....')
+sudo arp-scan --interface=$(iwconfig | grep -o 'w....')
+ifconfig 
+cat /sys/class/net/<interface>/operstate
+cat /sys/class/net/
+cd /sys/class/net/
+cd wlo1
+ls
+cat operstate 
+cd wireless/
+ls
+cd ..
+cd device
+ls
+cd net/
+ls
+cd wlo1/
+ls
+cd
+sudo arp-scan --interface=$(iWconfig | grep -o 'w....')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w....')
+ls
+exit
+./rec 
+gcc reciver.c -o rec
+./rec 
+ip
+ip n now
+ip n 
+ip neigh 
+arp -a
+ip neigh 
+ip n
+exit
+sudo apt-get --purge remove netdiscover 
+sudo apt-get --purge remove nmap
+sudo apt-get --purge remove arp-scan 
+sudo apt-get update 
+sudo apt-get upgrade 
+reboot
+cd /etc/default/
+cat grub 
+update grub 
+update grub
+grub update
+sudo update-grub
+cd
+sudo apt-get install arp-scan 
+sudo apt-get update 
+sudo apt-get install -f
+arp-scan 
+arp-scan -version
+pip install arp-scan
+sudo apt-get install arp-scan 
+sudo dpkg-query -l | grep arp-scan *
+cd arp-scan/
+ls
+cd ..
+sudo arp-scan --interface=$(ifconfig | grep -o 'w...')
+sudo arp-scan --interface=wlo1
+sudo arp-scan 
+sudo arp-scan --interface=$(ifconfig | grep -o 'w...')
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.....')
+sudo apt-get install arp-scan
+sudo apt-get install arp-scansudo dpkg-query -l | grep arp-scan *
+ip a
+ip a | grep 'wlo1'
+sudo nmap -sn 192.168.1.0/24
+sudo apt-get install nmap
+sudo nmap -sn 192.168.1.0/24
+arp
+arp-scan -l
+arp-scan -i
+nbtscan 192.168.1.1-192.168.1.255.
+sudo apt-get install nbtscan 
+nbtscan 192.168.1.1-192.168.1.255.
+cd /usr/bin/
+ls | grep 'arp'
+cat arp-scan 
+cd arp-scan 
+l
+exit
+gcc sender.c -o send
+./send 
+gcc sender.c -o send
+./send 
+gcc sender.c -o send
+./send 
+gcc sender.c -o send
+./send 
+gcc sender.c -o send
+./send 
+gcc sender.c -o send
+./send 
+exit
+./rec
+gcc reciver.c 
+./a.out 
+exit
+ls
+sudo apt-get --purge remove netdiscover 
+sudo apt-get --purge remove nmap
+sudo apt-get --purge remove arp-scan 
+sudo apt autoremove 
+sudo apt-get update 
+sudo apt-get install -f
+sudo apt-get install arp-scan 
+sudo arp-scan -l
+ifconfig 
+sudo arp-scan --interface wlo1 -l
+ifconfig 
+sudo arp-scan -l
+sudo arp-scan --interface wlo1 -l
+sudo arp-scan --interface=$(ifconfig | grep -o 'w.........')
+sudo arp-scan --interface=wlo1
+sudo arp-scan --interface wlo1
+sudo arp-scan --interface wlo1 -l
+sudo arp-scan --interface wlo1
+sudo arp-scan --interface wlo1 -l
+ls
+B
+sudo arp-scan --interface wlo1 -l
+sudo arp-scan --interface wlo1 -
+sudo arp-scan --interface wlo1 
+sudo arp-scan --interface wlo1 -l
+sudo arp-scan --interface wlo1 -l | grep 192.168.[0-9].[0-9]
+sudo arp-scan --interface wlo1 -l | grep 192.168.[0-9][0-9].[0-9
+sudo arp-scan --interface wlo1 -l | grep 192.*.*.*
+line=192.168.43.18c:be:be:32:06:f1(Unknown)
+line=192.168.43.18c:be:be:32:06:f1
+echo "$line" | grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"
+line=192.168.43.18c:be:be:32:06:f1
+line=192.168.43.1     8c:be:be:32:06:f1
+exit
+./script 
+ifconfig 
+cd FileTrans/
+ls
+gcc server.c -o serv
+./serv 65305
+exit
+./a.out 192.168.1.228 65302 Gajanana\ \(Uncut\ Full\ Song\)\ -\ Bajirao\ Mastani\ -\ Sukhwinder\ Singh\ -\ Ranveer\ Singh\,\ Priyanka\,\ Deepika.mp4 
+exit
+gcc client.c 
+exit
+ping 192.168.1.219
+wifi
+gcc sender.c -o send
+./send 
+wifi
+cd ..
+./script 
+ifconfig 
+cd ChatApp/
+ls
+./a.out 192.168.1.220 8080 Haripath\ -\ Baba\ Maharaj\ Satarkar.mp4 
+gcc client.c 
+
+./../script 
+ifconfig 
+ping 192.168.1.219
+./../script 
+ping 192.168.1.219
+ifconfig 
+ping 192.168.1.219
+gcc server.c 
+./a.out 8080
+gcc server.c 
+./a.out 8080
+wifi
+exit
+wifi
+sudo vim /etc/network/interfaces
+python3.6 Assembler.py 
+sudo arp-scan --interface=$(ifconfig | grep -o 'w...') 
+python3.6 Assembler.py 
+[A
+python3.6 Assembler.py 
+[A
+python3.6 Assembler.py 
+wifi
+reboot
+gcc sender1.c -o send
+./send 
+cd
+exit
+./script 
+cd ChatApp/NEWME/
+ls
+gcc reciver.c 
+./a.out 
+cd ..
+gcc reciver.c 
+./a.out 
+gcc reciver.c 
+./a.out 
+cd ..
+gcc sender1.c -o send
+./send 
+gcc sender1.c -o send
+./send 
+gcc sender1.c -o send
+./send 
+gcc sender1.c -o send
+./send 
+exit
+ls
+cat server_1.c 
+cd Chat/
+cat server.c
+ls
+cat tcp_Echo_server.c 
+cd ..
+cd Ad-Hoc/
+./script 
+cd ..
+gcc client.c -o client
+code client.c
+gcc client.c -o client
+ping 192.168.1.102
+gcc client.c -o client
+./client 192.168.1.102
+gcc client.c -o client
+./client 192.168.1.102
+exit
+gcc client.c 
+./a.out 
+indent client.c 
+gcc client.c 
+indent client.c 
+gcc client.c 
+./a.out 
+./a.out 192.168.1.219 8080 a.out 
+gcc client.c 
+./a.out 192.168.1.219 8080 a.out 
+cd ..
+./script 
+ifconfig 
+ping 192.168.1.228
+ping 192.168.1.219
+ifconfig 
+./script 
+ping 192.168.1.219
+wifi
+./script 
+ping 192.168.1.219
+ping 192.168.1.102
+./script 
+ping 192.168.1.102
+./script 
+ping 192.168.1.219
+./script 
+ping 192.168.1.219
+./script 
+ping 192.168.1.219
+ifconfig 
+ping 192.168.1.219
+wifi
+./script 
+ping 192.168.1.219
+./script 
+ping 192.168.1.219
+./script 
+ping 192.168.1.219
+./script 
+ping 192.168.1.219
+ifconfig 
+ping 192.168.1.219
+./script 
+ping 192.168.1.219
+exit
+cd Msc/SEM-III/CN/Ad-Hoc/
+./script 
+ifconfig 
+./script 
+ifconfig 
+./script 
+ping 192.168.1.228
+ping 192.168.1.102
+ping 192.168.1.228
+vim script 
+wifi
+./script 
+ifconfig 
+ping 192.168.1.102
+wifi
+ls
+cd ..
+ls
+gcc server.c -o server
+code server.c
+gcc server.c -o server
+./server
+gcc server.c -o server
+./server
+gcc server.c -o server
+./server
+gcc server.c -o server
+./server
+gcc server.c -o server
+./server
+cd Ad-Hoc/
+cd FileTrans/
+wifi
+gcc server.c 65302
+gcc server.c
+./a.out 8080
+gcc server.c
+./a.out 8080
+gcc server.c
+./a.out 8080
+gcc server.c
+./a.out 8080
+gcc server.c
+./a.out 8080
+rbooot
+reboot
+po
+exit
+cd
+cd /etc/network/
+sud vim interfaces
+sudo vim interfaces
+exit
+cd
+cd /etc/network/
+sudo vim interfaces
+exit
+cd Msc/SEM-III/CN/Ad-Hoc/
+./script 
+ping 192.168.1.228
+ping 192.168.1.219
+./script 
+ping 192.168.1.219
+ping 192.168.1.102
+./script 
+ping 192.168.1.102
+ping 192.168.1.219
+ping 192.168.1.102
+ping 192.168.1.219
+wifi
+exit
+c /etc/network
+sudo vim in
+cd /etc/network/
+sudo vim interfaces
+sudo update-inetd 
+wifi
+exit
+gcc client1.c 
+exit
+code client1.c 
+ls
+code client1.c 
+gcc client1.c 
+./a.out 
+gcc client1.c 
+./a.out 
+gcc client1.c 
+cd ..
+cd ChatApp/
+cd NEWME/
+ls
+,s
+ls
+gcc reciver.c 
+gedit
+gedit reciver.c 
+indent reciver.c 
+gedit reciver.c 
+gcc reciver.c
+./a.out 
+cd ..
+cd HIke/
+gcc 
+gcc reciver.c 
+./a.out 
+gcc reciver.c 
+./a.out 
+exit
+wifi
+cd Msc/SEM-III/CN/Ad-Hoc/
+./script 
+ping 192.168.1.102
+ifconfig 
+ping 192.168.1.102
+ping 192.168.1.219
+cd FileTrans/
+sudo rm Vedio.mp4 
+ls
+gcc server.c 
+./a.out 8080
+cd ..
+ifconfig 
+./script 
+ifconfig 
+ping 192.168.1.219
+cd FileTrans/
+ping 192.168.1.102
+ping 192.168.1.219
+ping 192.168.1.102
+gcc server.c 
+./a.out 8080
+ping 192.168.1.220
+cd ..
+cd ChatApp/
+cd NEWME/
+gedit sender1.c 
+ping 192.168.1.220
+ping 192.168.1.219
+gcc sender1.c -o send
+./send 
+gcc sender1.c -o send
+./send 
+gcc sender1.c -o send
+cd ..
+cd HIke/
+gcc sender1.c 
+gcc sender1.c -o send
+./send 
+gcc sender1.c -o send
+./send 
+exit
+gcc sender1.c 
+gcc sender1.c -o send1
+ping 192.168.1.219
+ping 192.168.1.220
+gcc sender1.c -o send1
+./send1 
+gcc sender1.c -o send1
+./send1 
+gcc sender1.c -o send1
+./send1 
+gcc sender1.c -o send1
+./send1 
+gcc sender1.c -o send1
+./send1 
+gcc sender1.c -o send1
+./send1 
+gcc sender1.c -o send1
+./send1 
+gcc sender1.c -o send1
+./send1 
+indent sender1.c 
+gcc sender1.c -o send1
+./send1 
+gcc sender1.c -o send1
+./send1 
+gcc reciver.c 
+./a.out 
+gcc reciver.c 
+./a.out 
+gcc reciver.c 
+indent reciver.c 
+gcc reciver.c 
+./a.out 
+wifi
+exit
+cd /etc/network/
+cat interfaces
+exit
+sudo apt-get update 
+exit
+snap
+snapd
+exit
+cd
+grep snapd
+sudo apt list --installed | grep -i snapd
+exit
+sudo snap install pycharm-community --classic
+cd Desktop/
+ls
+exit
+cd /etc/apt
+sudo mv apt.conf /home/vsd/Desktop/
+sudo mv /home/vsd/Desktop/apt.conf .
+ls
+po
+sudo snap install pycharm-professional --classic
+cd /etc/
+sudo vim environment 
+sudo nano environment 
+sudo vim environment 
+exit
+cd /etc/apt/
+sudo mv apt.conf apt.conf2
+ls
+sudo snap install pycharm-professional --classic
+pycharm-professional 
+pycharm-community 
+sudo snap install pycharm-professional --classic
+exit
+python3.6 Assembler.py 
+l
+ls
+cd ..
+cd Ass
+cd Assign/
+gcc sysprotest_22_8.c 
+objdump a.out 
+objdump -d a.out 
+exit
+code sum_of_subsets.py
+exit
+gedit temp2.asm &
+nasm -felf32 -l l.lst temp2.asm
+exi
+cd ..
+cd Assembler/
+python3.6 Assembler.py 
+exit
+sudo date -s "$(wget -S  "http://www.google.com/" 2>&1 | grep -E '^[[:space:]]*[dD]ate:' | sed 's/^[[:space:]]*[dD]ate:[[:space:]]*//' | head -1l | awk '{print $1, $3, $2,  $5 ,"GMT", $4 }' | sed 's/,//')"
+date
+dt
+sudo date -s "$(wget -S  "http://www.google.com/" 2>&1 | grep -E '^[[:space:]]*[dD]ate:' | sed 's/^[[:space:]]*[dD]ate:[[:space:]]*//' | head -1l | awk '{print $1, $3, $2,  $5 ,"GMT", $4 }' | sed 's/,//')"
+date
+python3.6 Assembler.py 
+[A
+python3.6 Assembler.py 
+exit
+cd Msc/SEM-III/SysPro/Assembler/
+python3.6 Assembler.py 
+nasm -felf32 temp2.asm
+nasm -felf32 -Fdwarf -g temp2.asm
+python3.6 Assembler.py 
+nasm -felf32 -Fdwarf -g temp2.asm
+nasm -felf32 -g -Fdwarf temp.asm
+cd ..
+nasm -felf32 -g -Fdwarf test.asm 
+cd Assembler/
+nasm -felf32 -g -Fdwarf temp.asm
+nasm -felf32 -g -Fdwarf test.asm 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+python3.6 Assembler.py 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+python3.6 Assembler.py 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+gcc -m32 -g -Fdwarf test2.o
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+python3.6 Assembler.py 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+gcc -m32 -g -Fdwarf test2.o
+python3.6 Assembler.py 
+gcc -m32 -g -Fdwarf test2.o
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+python3.6 Assembler.py 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+python3.6 Assembler.py 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+gcc -m32 -g -Fdwarf test2.o
+python3.6 Assembler.py 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+python3.6 Assembler.py 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+nasm -felf32 -g -Fdwarf test2.asm 
+gcc -m32 -g -Fdwarf test2.o
+./a.out 
+python3.6 Assembler.py 
+exit
+python3.6
+exit
+cd
+sudo pip install tabulate
+cd /etc/apt/
+sudo mv apt.conf2 apt.conf
+ls
+sudo pip install tabulate
+sudo -E pip install tabulate
+ls
+exit
+cd
+sudo -E pip install tabulate
+sudo -E pip install -U tabulate
+exit
+python3.6 Assembler.py 
+nasm -felf32 -l l.lst test2.asm 
+python3.6 Assembler.py hiii
+python3.6 Assembler.py test2.asm 
+code litTable.py
+python3.6 Assembler.py test2.asm 
+[A
+python3.6 Assembler.py test2.asm 
+python3.6 string_to_Ascii.py 
+python3.6 Assembler.py test2.asm 
+[A
+python3.6 Assembler.py test2.asm 
+exit

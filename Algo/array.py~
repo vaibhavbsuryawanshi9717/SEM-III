@@ -1,0 +1,8 @@
+arr=[]
+
+if __name__=="__main__":
+    n=int(input("Enter no>>"))
+    for i in range(num):
+        num=int(input("", );
+        arr.append(num)
+    print(arr)

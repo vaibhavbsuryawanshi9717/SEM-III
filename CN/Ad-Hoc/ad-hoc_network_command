@@ -1,0 +1,17 @@
+find wireless lan network  address of host machine use ifconfige 
+
+sudo ifconfig wlp3s0 down					//wlp3s0 may change in your p
+sudo iwconfig wlp3s0 mode ad-hoc	
+sudo iwconfig wlp3s0 channel 1 essid MYNETWORK mode ad-hoc	//MYNETWORK is ad-hoc network name or essid
+sudo ifconfig wlp3s0 up
+sudo service network-manager restart
+sudo ifconfig wlp3s0 192.168.1.22 netmask 255.255.255.0  
+
+sudo iwlist wlp3s0 scan |less 					//this open a file find your network essid by typing /essid_name 
+								//if you do not find your network name try all the commands again
+ping 192.168.1.78 	//this ip address is another machine address you wish to connect 
+ssh hostname@ip_address
+			
+sudo rfkill unblock wifi
+
+sudo apt-get install openssh-server

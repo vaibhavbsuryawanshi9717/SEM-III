@@ -1,0 +1,57 @@
+section .data
+msg db Lit#0
+msg1 db Lit#1
+acc db Lit#2
+section .bss
+	n resd 1
+	arr resd 100
+	ip resd 1
+	sum resd 1
+section .text
+	global main
+	extern printf,scanf
+main:
+push Sym#1
+	call printf
+add Reg#4,Lit#3
+push Sym#3
+push Sym#2
+add Reg#4,Lit#4
+	
+xor Reg#1,Reg#1
+xor Reg#6,Reg#6
+loop:
+mov Reg#6,Sym#4
+cmp Reg#1,dword[Sym#3]
+je Sym#9
+mov Reg#0,Lit#3
+mul Reg#1
+add Reg#6,Reg#0
+push Reg#1
+push Reg#6
+push Sym#2
+add Reg#4,Lit#4
+pop Reg#1
+inc Reg#1
+jmp Sym#8
+	
+calculate:
+mov Reg#3,dword[Sym#3]
+xor Reg#1,Reg#1
+xor Reg#7,Reg#7
+again:
+mov Reg#6,Sym#4
+mov Reg#0,Lit#3
+mul Reg#1
+add Reg#6,Reg#0
+add Reg#7dword[Reg#6]
+inc Reg#1
+dec Reg#3
+cmp Reg#3,Lit#5
+jne Sym#10
+	
+end:
+push Reg#7
+push Sym#0
+	call printf
+add Reg#4,Lit#4
